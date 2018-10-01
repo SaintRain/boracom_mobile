@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Текстовая простая</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="boracom.css">
+    <!--[if lt IE 9]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+</head>
+<body>
+<div class="wrap">
+    <header>
+        <a class="logo" href="/">БОРА</a>
+        <div class="topmenubutton"><span></span></div>
+    </header>
+    <div class="headborder"></div>
+    <section class="breadcrumbs">
+        <ul class="nav">
+            <li><a href="#">Главная</a></li>
+            <li class="active"><a href="#">название страницы</a></li>
+        </ul>
+    </section>
+    <section class="content">
+        <h1>Название страницы</h1>
+       <p>ГК "БОРА" предлагает современное профилегибочное оборудование собственного производства - станки и автоматизированные линии для размотки/раскроя/гибки/профилирования листового и рулонного металла.</p>
+        <p>Наше предприятие, образованное в 2001 году на базе 1-го приборостроительного завода Москвы, за прошедшее время стало одним из лидеров отрасли. В перечне выпускаемых станков и техники для производства металлопрофиля: линии профнастил; фальцепрокатный станок; линии сайдинг; линии металлочерепицы; оборудование для выпуска ЛСТК и т.д.</p>
+        <p><img class="width:100%;" src="images/testovaya.jpg" /></p>
+        <p>Производство компании ГК БОРА, это токарные, фрезерные, раскройные обрабатывающие центры с ЧПУ, парк универсального оборудования. Производственный процесс изготовления профилегибочных валков основан на без чертежном методе производства, что значительно ускоряет время изготовления комплектов валков и их доводку при наладке новых изделий.</p>
+        <p>Наша компания  располагает собственным конструкторским бюро, которое ведёт разработки с использованием современных программ CAD/CAM.</p>
+        <p>Ассортимент выпускаемой продукции достаточно широк. От мобильных фальцепрокатных станков до автоматизированных профилегибочных комплексов со штамповкой и перфорацией профиля.</p>
+    </section>
+    <section class="magazin">
+        <img src="images/magazin.jpg" />
+    </section>
+    <footer>
+        <div class="inner">
+            <h1>Клиентам</h1>
+            <ul>
+                <li><a href="#">Магазин профилегибочного оборудования</a></li>
+                <li><a href="#">Автоматизация производства</a></li>
+                <li><a href="#">Сервисные услуги</a></li>
+                <li><a href="#">Транспортные услуги</a></li>
+                <li class="youtube"><a href="#">Наш канал на YouTube</a></li>
+            </ul>
+        </div>
+        <div class="inner">
+            <p>Московская область, г. Красногорск, Павшинский бульвар, дом 17</p>
+            <p class="phones">+7(495) 640 21 99<br/>
+                +7(495) 640 22 07</p>
+            <p>Понедельник - пятница с 9<sup>00</sup> до 19<sup>00</sup></p>
+            <p class="mail">info@boracom.ru</p>
+            <p><a href="#">Полная версия сайта</a></p>
+        </div>
+    </footer>
+    <section class="mobilemenu">
+        <div class="mobilebutton">X</div>
+        <div class="menucontact">
+            <p>+7(495) 640 21 99</p>
+            <p>+7(495) 640 22 07</p>
+            <p class="adress">Московская область, г. Красногорск,<br/>
+                Павшинский бульвар, дом 17</p>
+        </div>
+        <ul>
+            <li><a href="#" >Главная</a></li>
+            <li><a href="#" >О компании</a></li>
+            <li class="parent"><a href="#" >Каталог Оборудования</a>
+                <ul>
+                    <li><a href="#" class="active">Фасадные</a></li>
+                    <li><a href="#" >Металлочерепица</a></li>
+                    <li><a href="#" >Профнастил</a></li>
+                    <li><a href="#" >Сайдинг</a></li>
+                    <li><a href="#" >Фальцевая кровля</a></li>
+                    <li><a href="#" >Резка металла</a></li>
+                    <li><a href="#" >Размотка металла</a></li>
+                    <li><a href="#" >ЛСТК</a></li>
+                    <li><a href="#" >Универсальный стан</a></li>
+                    <li><a href="#" >Штакетник</a></li>
+                    <li><a href="#" >Доборные элементы</a></li>
+                    <li><a href="#" >Шляпный профиль</a></li>
+                    <li><a href="#" >Строительные профили</a></li>
+                    <li><a href="#" >Дополнительное оборудование</a></li>
+                </ul>
+            </li>
+            <li><a href="#" >Магазин</a></li>
+            <li><a href="#" >Контакты</a></li>
+            <li><a href="#" >Полная версия сайта</a></li>
+        </ul>
+    </section>
+</div>
+
+
+<div class="del"></div>
+<script>
+    ( function($) {
+        $(document).ready(function(){
+            $('.topmenubutton').click(function() {
+                $('.mobilemenu').toggleClass('active');
+            });
+            $('.mobilebutton').click(function() {
+                $('.mobilemenu').toggleClass('active');
+            });
+        });
+    } ) ( jQuery );
+</script>
+
+</body>
+</html>

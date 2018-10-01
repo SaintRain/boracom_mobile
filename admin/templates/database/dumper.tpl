@@ -1,0 +1,1 @@
+<IFRAME name="blog_content" marginheight="0" marginwidth="0" id="blog_content" src="sxd/index.php" width="100%" height="450px" scrolling="no" frameborder="0"></IFRAME>

@@ -1,0 +1,15 @@
+<IfModule mod_php5.c>
+  php_value engine off
+</IfModule>
+<IfModule mod_php4.c>
+  php_value engine off
+</IfModule>
+
+<Files ~ "\.(php|php3|php4|php5|php6|phtml|phps|phpt)$">  
+deny from all  
+</Files>
+
+Deny from All
+<Files ~ "\.(jpg|jpeg|png|gif|bmp)$">
+allow from all
+</Files>

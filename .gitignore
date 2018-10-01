@@ -1,0 +1,9 @@
+.DS_Store
+.idea
+/app.docker
+/default.conf
+/docker-compose.yml
+/docker-php.ini
+/data-mysql
+/sources.list
+

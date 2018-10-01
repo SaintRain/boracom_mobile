@@ -1,0 +1,10 @@
+<Files ~ "\.(php|php3|php4|php5|php6|phtml|phps|phpt)$">  
+deny from all  
+</Files>
+
+<IfModule mod_php5.c>
+  php_value engine off
+</IfModule>
+<IfModule mod_php4.c>
+  php_value engine off
+</IfModule>

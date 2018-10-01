@@ -1,0 +1,103 @@
+html, body {
+	margin:0;
+	color:#22364F;
+	font-size:11px;
+	font-family:Arial;
+	background:#255476;
+	background-image:url('../images/fon.gif');
+	background-repeat:repeat-yx;
+	background-position:left top;
+	scrollbar-3dlight-color: #7eaed3;
+	scrollbar-arrow-color: white;
+	scrollbar-base-color: Black;
+	scrollbar-darkshadow-color: #7eaed3;
+	scrollbar-face-color: #588ab0;
+	scrollbar-highlight-color: #93c3e6;
+	scrollbar-shadow-color: #93c3e6;
+	scrollbar-track-color: #8cb3d0;
+	height:  !important;
+	height: 100%; /* для IE6 */
+	min-height: 100%;	
+}
+
+a {
+	color:white;
+	font-family:Arial;
+	font-size:11px;
+	text-decoration:none;
+	vertical-align:middle;
+	horizontal-align:left;
+	font-weight:normal;
+}
+
+a:hover {
+	color:#b2dfff;
+	font-family:Arial;
+	font-size:11px;
+	text-decoration:none;
+	font-weight:normal;
+}
+
+.left {
+	background-image:url('../images/left.gif');
+	background-repeat:repeat-y;
+	background-position:left top;
+}
+
+select {
+	height:19;
+	border : 1px double #4D6E8A;
+	background-color : white;
+	font-size: 11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color:black;
+}
+
+.dtree {
+	font-family:Arial;
+	font-size: 11px;
+	color: white;
+	white-space: nowrap;
+	font-weight:normal;
+}
+
+.dtree img {
+	border: 0px;
+	vertical-align: middle;
+	font-weight:normal;
+}
+
+.dtree a {
+	font-family:Arial;
+	color: white;
+	text-decoration: none;
+	font-size:11px;
+	font-weight:normal;
+}
+
+.dtree a.node, .dtree a.nodeSel {		
+	font-size:11px;
+	white-space: nowrap;
+	padding: 1px 2px 0px 2px;
+	color: white;
+	vertical-align:middle;
+	horizontal-align:left;
+	font-weight:normal;	
+}
+
+.dtree a.node:hover, .dtree a.nodeSel:hover {
+	white-space: nowrap;
+	padding: 1px 2px 0px 2px;
+	color: #b2dfff;
+	text-decoration: none;
+	text-shadow: 0px 0px 10px white;
+	font-weight:normal;
+}
+
+ .dtree a.nodeSel {
+	text-decoration: none;
+	color:yellow;
+	font-size:11px;
+	font-weight:normal;
+}

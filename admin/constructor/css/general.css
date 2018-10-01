@@ -1,0 +1,434 @@
+html,body {
+	padding:0px;
+	margin:0px;
+	color:#22364F;
+	background:#7cb3db;
+	background-repeat:repeat-x;
+	background-position:left top;
+	scrollbar-3dlight-color: #7eaed3;
+	scrollbar-arrow-color: white;
+	scrollbar-base-color: #1c384c;
+	scrollbar-darkshadow-color: #629bc8;
+	scrollbar-face-color: #588ab0;
+	scrollbar-highlight-color: #93c3e6;
+	scrollbar-shadow-color: #93c3e6;
+	scrollbar-track-color: #8cb3d0;
+	height:  !important;
+	height: 100%; /* для IE6 */
+	min-height: 100%;
+}
+
+
+
+.editarea_field {
+	width:100%;
+}
+
+.ten{
+	-webkit-box-shadow: 0 0 25px #315875;
+	-moz-box-shadow: 0 0 25px #315875;
+	box-shadow: 0 0 25px #315875;
+}
+
+.page_selected {
+	background:#dce7fa;
+}
+
+.page_not_selected {
+	background:white;
+}
+
+.flitter {
+	background-image:url('../images/flitter.gif');
+	background-repeat:repeat-y;
+	background-position:left top;
+	cursor:e-resize;
+}
+
+.zakladka {
+	color : #173349;
+	font-size: 11px;
+	font-family:sans-serif;
+	cursor:pointer;
+}
+
+.zakladka_active {
+	font-size: 11px;
+	font-family:sans-serif;
+	cursor:pointer;
+}
+
+.zakladka_maroon {
+	color:maroon;
+	font-size: 11px;
+	font-family:sans-serif;
+	cursor:pointer;
+}
+
+.zakladka_blue {
+	color:blue;
+	font-size: 11px;
+	font-family:sans-serif;
+	cursor:pointer;
+}
+
+.zakladka_disabled{
+	color:#588ab0;
+	font-size: 11px;
+	font-family:sans-serif;
+	cursor:pointer;
+}
+
+.pageName {
+	position:absolute;
+	font-size:12px;
+}
+
+.pageNameBold {
+	position:absolute;
+	margin-left:2px;
+	margin-top:1px;
+	font-size:12px;
+	font-weight:bold;
+}
+
+h5 {
+	color:284e71;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size:14px;
+	font-weight:bold;
+}
+
+td {
+	font-family:Arial;
+	font-size:12px;
+}
+
+a.noTpl {
+	color:red;
+	font-size:11;
+	text-decoration:none;
+}
+
+a.noTpl:hover {
+	color:black;
+	font-size:11;
+	text-decoration:underline;
+}
+
+
+a.block_link {
+	color:gray;
+	font-size:10;
+	text-decoration:none;
+}
+
+a.block_link:hover {
+	color:black;
+	font-size:10;
+	text-decoration:underline;
+}
+
+a.row_link {
+	color:gray;
+	font-size:11;
+	text-decoration:none;
+}
+
+a.row_link:hover {
+	color:black;
+	font-size:11;
+	text-decoration:underline;
+}
+
+a.moveLink {
+	text-decoration:none;
+	font-size:11;
+	margin:0;
+}
+
+.menulink {
+	color:black;
+	font-family:Arial;
+	font-size:12px;
+}
+
+.menulinkSelected {
+	color:black;
+	font-family:Arial;
+	font-size:12px;
+}
+
+.ukaz{
+	cursor:pointer;
+}
+
+.otstup {
+	width:10px;
+}
+
+a {
+	color:#22364F;
+}
+
+a:hover {
+	color:0077d6;
+	height:11;
+}
+
+a.list {
+	color:#22364F;
+}
+
+a.list:hover {
+	color:blue;
+}
+
+a.pageCategory {
+	font-family:sans-serif;
+	color:#C2C2C2;
+	font-size: 12px;
+	text-decoration:none;
+}
+
+a.pageCategory:hover {
+	color:white;
+}
+
+a.simple_link {
+	color:#22364F;
+	text-decoration:none;
+}
+
+a.simple_link:hover {
+	color:#22364F;
+	background-color : #FFD965;
+	text-decoration:none;
+}
+
+a.sg_link {
+	color:maroon;
+	text-decoration:none;
+}
+
+a.sg_link:hover {
+	color:maroon;
+	background-color : #FFD965; text-decoration:none;
+}
+
+a.g_link {
+	color:blue;
+	text-decoration:none;
+}
+
+a.g_link:hover {
+	color:blue;
+	background-color : #FFD965;
+	text-decoration:none;
+}
+
+.vertical_line_center {
+	background-image: url('../images/line.gif');
+	background-repeat:repeat-y;
+	background-position:center top;
+}
+
+.vertical_line {
+	background-image: url('../images/line.gif');
+	background-repeat:repeat-y;
+	background-position:right top;
+}
+
+.vertical_line2 {
+	background-image: url('../images/line.gif');
+	background-repeat:no-repeat;
+	background-position:2px 15px;
+}
+
+.checkbox {
+	margin-left:0px;
+}
+
+
+input[type="text"] {	
+	padding:0px;
+	margin-bottom:0px;		
+	height:17px;
+	border : 1px solid #4D6E8A;
+	
+	font-size: 11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color:black;
+}
+
+input[type="password"] {
+	padding:0px;
+	margin:0px;	
+	height:17px;
+	border : 1px solid #4D6E8A;
+	background-color : white;
+	font-size: 11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color:black;
+}
+
+input[type="file"] {
+	padding:0px;
+	margin:0px;	
+	height:17px;
+	border : 1px solid #4D6E8A;
+	background-color : white;
+	font-size: 11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color:black;
+}
+
+
+textarea {
+	border : 1px solid #4D6E8A;
+	background-color : white;
+	font-size: 11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color:black;
+	line-height: 1.5;
+	
+}
+
+select {
+	border : 1px solid #4D6E8A;
+	background-color : white;
+	font-size: 11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color:black;
+	height:19px;
+}
+
+
+
+input.radio_in_dumper {
+	height:14px;
+	width:14px;
+	border : 0 solid #4D6E8A;
+	background-color:white;
+}
+
+.formbackground {
+	background-color:#629bc8;
+	color:#22364F;
+}
+
+.fcaption {
+	font-style:italic;
+	color:#22364F;
+}
+
+.formborder {
+	background-color:#5380a3;
+}
+
+.top_list {
+	background-image:url('../images/tabletop.jpg');
+	background-repeat:repeat-x;
+	background-position:left top;
+}
+
+.button {
+	padding-left:3px;
+	padding-right:3px;
+	cursor:pointer;
+	border : 1px solid #4D6E8A;
+	background-color : #C6D9FF;
+	font-size: 11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color:black;
+	background-image:url('../images/button.jpg');
+	background-repeat:repeat-x;
+	height:19px;
+}
+
+input.button[disabled] {
+	padding-left:3px;
+	padding-right:3px;
+	cursor:pointer;
+	margin:0px;
+	height:19px;
+	border : 1px solid #4D6E8A;
+	background-color : #E5E5E5;
+	font-size: 11px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:normal;
+	color:black;
+}
+.lcmenu {
+	background-image: url('../images/zakladky/top_left.gif');
+}
+
+.rcmenu {
+	background-image: url('../images/zakladky/top_right.gif');
+}
+
+.fonbcmenu {
+	background-image: url('../images/zakladky/top_fon.gif');
+}
+
+.lcmenu_a {
+	background-image: url('../images/zakladky/top_aktiv_left.gif');
+}
+
+.rcmenu_a {
+	background-image: url('../images/zakladky/top_aktiv_right.gif');
+}
+
+.fonbcmenu_a{
+	background-image: url('../images/zakladky/top_aktiv_fon.gif');
+}
+
+.bottomcmenu {
+	background-image: url('../images/zakladky/bottom_fon.gif');
+	background-repeat:repeat;
+	background-position:left top;
+}
+
+.rightline {
+	background-image: url('../images/zakladky/line2.gif');
+	background-repeat:repeat-y;
+}
+
+.leftline {
+	background-image: url('../images/zakladky/line1.gif');
+	background-repeat:repeat-y;
+}
+
+.bottomline {
+	background-image: url('../images/zakladky/line3.gif');
+	background-repeat:repeat-x;
+}
+
+a.links {
+	font-weight:normal;
+	color:#09192d;
+	font-size:11px;
+	text-decoration:none;
+	height:11px;
+	text-shadow: 0px 0px 10px white;
+}
+
+a.links:hover {
+	font-weight:normal;
+	color:white;
+	font-size:11;
+	text-decoration:none;
+	text-shadow: 0px 0px 10px white;
+}
+
+.field_name {
+	border : 1px solid #4d6e8a;
+	color:black;
+	background:#e4f3ff;
+}

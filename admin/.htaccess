@@ -1,0 +1,19 @@
+AddDefaultCharset utf-8
+DirectoryIndex index.php
+RewriteEngine On
+
+#RewriteBase /
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^.*$ index.php [L,NS,QSA]
+
+<Files ~ "\.(sql|tpl|xsl)$">  
+order allow,deny
+deny from all  
+</Files>
+
+#php_flag allow_call_time_pass_reference 1 
+#php_flag zlib.output_compression On
+#php_flag display_errors off

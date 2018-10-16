@@ -6,10 +6,10 @@ define ('MYSQL_DATABASE',		'boracom_mobile');
 define ('MYSQL_USER',		'root');
 define ('MYSQL_PASSWORD',		'root');
 
-//define ('MYSQL_HOST',		'u347973.mysql.masterhost.ru');
-//define ('MYSQL_DATABASE',		'u347973');
-//define ('MYSQL_USER',		'u347973');
-//define ('MYSQL_PASSWORD',		'aterat6o3lit');
+//    define ('MYSQL_HOST',		'u337903.mysql.masterhost.ru');
+//    define ('MYSQL_DATABASE',		'u337903_mobile');
+//    define ('MYSQL_USER',		'u337903_mobile');
+//    define ('MYSQL_PASSWORD',		's.es_O3s7rE');
 
 
 //настройки мемкеша
@@ -18,7 +18,7 @@ define ('SETTINGS_MEMCACHED_PORT', 11211);
 define ('SETTINGS_MEMCACHED_HOST', 'localhost');
 
 /////////////////////настройки сайта/////////////////////
-define ('SETTINGS_HTTP_HOST',						'http://localhost:8081');
+define ('SETTINGS_HTTP_HOST',						'http://mobile.boracom.ru:8081');
 define ('SETTINGS_ERORR_PAGE_400',					'0');
 define ('SETTINGS_ERORR_PAGE_404',					'0');
 define ('SETTINGS_ERORR_PAGE_500',					'');
